@@ -1,0 +1,40 @@
+@import '../../../src/assets/styles/main.scss';
+
+
+// .text-
+
+// .text-gray_2{
+//     color: #959595;
+//   }
+
+// .w-23{
+//     width: 23%;
+// }
+
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    .page-btn {
+        margin: 0 5px;
+        padding: 10px 15px;
+        border: none;
+        background-color: #f0f0f0;
+        cursor: pointer;
+
+        &.active {
+            background-color: #007bff;
+            color: #fff;
+        }
+    }
+}
+
+
+//   Link {
+//     text-decoration: none !important;
+//     color: #959595 !important;
+//   }
+

@@ -1,0 +1,206 @@
+@import '../../../src/assets/styles/main.scss';
+
+#bg-car {
+  background-image: url('../../assets/assignment-images/imges/landing-page/Frame.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+}
+
+@media (max-width: 992px) {
+
+  /* Adjust the max-width value to match your md breakpoint */
+  #bg-car {
+    //   background-image: none;
+    height: 60vh;
+
+  }
+}
+
+.space-top {
+  margin-top: 130px;
+}
+
+@media (max-width: 992px) {
+
+  /* Adjust the max-width value to match your lg breakpoint */
+  .space-top {
+    margin-top: 30px;
+  }
+}
+
+
+.Easily {
+  color: $mainColor;
+  position: relative;
+}
+
+.Easily-img {
+  position: absolute;
+  top: 55px;
+  right: 1px;
+}
+
+.w-90 {
+  width: 97%;
+}
+
+.font-hero {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.icon-color {
+  color: #747474;
+}
+
+.carvy {
+  border-radius: 100px;
+}
+
+.dealsCars {
+  margin-top: 12px;
+}
+
+@media (max-width: 992px) {
+
+  /* Adjust the max-width value to match your lg breakpoint */
+  .dealsCars {
+    margin-top: 100px;
+  }
+}
+
+// .w-150 {
+//     width: 150px;
+// }
+
+.custom-line {
+  border: none;
+  /* Remove default border */
+  height: 1px;
+  /* Set the height of the line */
+  background-color: #e0e0e0;
+  /* Set the color of the line */
+  margin: 3px 0;
+  /* Set the top and bottom margins */
+}
+
+.w-80 {
+  width: 89%;
+}
+
+.text-gray {
+  color: #4E4E4E;
+}
+
+@media (min-width: 768px) {
+
+  /* Adjust the breakpoint as needed */
+  .gap-6 {
+    gap: 6rem;
+  }
+}
+
+
+#bg-car_2 {
+  background-image: url('../../assets/assignment-images/imges/landing-page/sec-5/Vector.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.offset_right {
+  margin-right: 3rem;
+}
+
+.text-gray_2 {
+  color: #252525;
+}
+
+
+// !
+.bg-color {
+  position: relative;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+  }
+
+  &::before {
+    left: 300px;
+    background-image: url('../../assets/assignment-images/imges/landing-page/sec-6/bgSec6_2.svg'); // Replace with the actual path to your image
+    background-repeat: no-repeat;
+    width: 300px;
+    // right: 200px;
+  }
+
+  &::after {
+    right: 0;
+    background-image: url('../../assets/assignment-images/imges/landing-page/sec-6/bgSec6_1.svg'); // Replace with the actual path to your image
+    background-repeat: no-repeat;
+    width: 300px;
+  }
+}
+
+/* Media Query for screens smaller than lg (1024px) */
+@media (max-width: 1024px) {
+  .bg-color::before {
+    left: 200px; /* Adjust this value as needed */
+    width: 200px; /* Adjust this value as needed */
+  }
+
+  .bg-color::after {
+    width: 200px; /* Adjust this value as needed */
+  }
+}
+
+/* Media Query for screens smaller than md (768px) */
+@media (max-width: 768px) {
+  .bg-color::before {
+    left: 100px; /* Adjust this value as needed */
+    width: 150px; /* Adjust this value as needed */
+  }
+
+  .bg-color::after {
+    width: 150px; /* Adjust this value as needed */
+  }
+}
+
+/* Media Query for screens smaller than sm (576px) */
+@media (max-width: 576px) {
+  .bg-color::before,
+  .bg-color::after {
+    display: none; /* Hide the images on very small screens */
+  }
+}
+
+// !
+
+
+#bg-Rentcars {
+  background-image: url('../../assets/assignment-images/imges/landing-page/sec-5/Vector.png');
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 70vh;
+}
+
+.bg-form {
+  background-color: #CEDCFF;
+}
+
+form div .form-control {
+  background-color: #CEDCFF !important;
+  padding: 10px !important;
+}

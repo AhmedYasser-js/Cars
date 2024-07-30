@@ -1,0 +1,63 @@
+@import '../styles/variables.scss';
+
+.mainBtn {
+  background-color: $mainColor;
+  padding-inline: 11px;
+  padding-block: 6px;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.secondBtn {
+  background-color: $secondColor;
+  padding-inline: 11px;
+  padding-block: 6px;
+  border: 0;
+  border-radius: 5px;
+  color: #1572D3;
+  font-weight: 500;
+}
+
+.main-text {
+color: $mainColor;
+}
+
+.main-heading {
+  color: #333333;
+  font-size: 38px;
+}
+
+.text-icon {
+  color: #959595;
+}
+
+.text-gray {
+  color:$grayColor;
+}
+
+.text-gray_2{
+  color: #959595;
+}
+
+.bg-color {
+  background-color:  #F7FBFF;
+}
+
+.link {
+  text-decoration: none !important;
+  color: #959595 !important;
+}
+
+.w-lg-23 {
+  width: 100%;
+  /* Default to full width */
+}
+
+@media (min-width: 992px) {
+  .w-lg-23 {
+      width: 23%;
+      /* Apply 25% width on large screens and above */
+  }
+}
