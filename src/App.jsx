@@ -8,7 +8,7 @@ import NotFound from './components/NotFound/NotFound';
 
 function App() {
   // const routes = createBrowserRouter([
-  const routes = createHashRouter([
+    const routes = createBrowserRouter([
     {
       path: '/',
       element: <Dashboard />,
